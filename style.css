@@ -31,4 +31,14 @@ body{
 :root {
     --number:16;
 }
- 
+
+
+.hov {
+    background-color: white;
+    transition: background-color calc(infinity * 1s);
+}
+
+.hov:hover {
+    background-color: red;
+    transition: background-color 0.3s ease;
+}

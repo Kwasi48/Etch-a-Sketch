@@ -21,6 +21,7 @@ function gridMaker(){
         for (j = 0; j< gridCount; j++){
             const grid = document.createElement("div");
             grid.classList.add("grid");
+            grid.classList.add("hov");
             // grid.style.color = "blue";
             //grid.textContent = "blue"
             home.appendChild(grid);
@@ -29,5 +30,7 @@ function gridMaker(){
 
     document.documentElement.style.setProperty('--number', gridCount);
 }
+
+
 
 gridMaker();
