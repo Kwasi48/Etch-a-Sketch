@@ -1,22 +1,34 @@
 .grid {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
-    height: 64px;
-    width: 64px;
+    background-color: white;
+    /* height: 36px; */
+    /* width: 36px; */
+    min-width: calc(100% / var(--number));
     margin: 0px;
-    border: 1px solid white;
+    outline: 1px solid green;
+    flex: 1;
+    aspect-ratio: 1 / 1;
 
 }
 
 .container {
+    margin-top: 16px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:stretch;
+    width: 500px;
+    border: 1px solid green;
 }
 
 body{
     background-color: azure;
+    
 }
+
+:root {
+    --number:16;
+}
+ 
