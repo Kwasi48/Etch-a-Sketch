@@ -1,0 +1,22 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 64px;
+    width: 64px;
+    margin: 0px;
+    border: 1px solid white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: azure;
+}
